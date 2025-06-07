@@ -1,1 +1,1 @@
-﻿# Playwrght learning
+﻿# Playwright learning
