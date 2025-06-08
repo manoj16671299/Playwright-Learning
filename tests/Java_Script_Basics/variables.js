@@ -27,4 +27,4 @@ const car = {
     year: 2020,
     }
 
-console.log(car.model);
+console.log(typeof(car.model));
