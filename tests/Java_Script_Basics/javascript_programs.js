@@ -24,6 +24,48 @@ switch (Math.sign(num)) {
     default:
         console.log("The number is Zero");
 }
+//Swap Two Variables 
 
+let a = 34
+let b = 45
+let temp
 
+temp = 34
+a = 45
+b = temp
+
+console.log(a,b);
+
+//sum of naturally numbers
+let sum = 0;
+
+// looping from i = 1 to number
+// in each iteration, i is increased by 1
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+
+console.log('The sum of natural numbers:', sum);
+
+//print sum of even num
+let dum = 0;
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) { // Check if the number is even
+    dum += i; // Add even numbers to the sum
+  }
+}
+console.log(dum); // Output: 2550
+
+//print sum of odd num
+let gum = 0;
+
+for (i=1;i<=100;i++) {
+    if(i % 2 == 0){
+
+    }
+    else {
+        gum += i;
+    }
+}
+console.log(gum);
 
