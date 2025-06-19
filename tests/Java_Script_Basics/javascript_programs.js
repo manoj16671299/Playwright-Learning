@@ -86,3 +86,12 @@ const multi = (m, n) => {
 }
 console.log(multi(8, 9))
 
+//find the largest num
+const largestnum = (e, f, g) => {
+    return Math.max(e, f, g)
+}
+
+console.log(largestnum(76,100,23))
+
+
+
