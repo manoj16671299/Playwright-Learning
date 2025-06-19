@@ -1,9 +1,9 @@
-function addnum (a, b) {
+function addnum(a, b) {
 
-    return a+b
+    return a + b
 }
 
-console.log(addnum(5,6))
+console.log(addnum(5, 6))
 
 //Arrow Function
 const sub = (a, b) => a - b;
@@ -16,7 +16,7 @@ function printevennum() {
     sum = 0
     for (i = 1; i <= 100; i++)
         if (i % 2 == 0) {
-            sum += i
+            sum = i
             console.log(sum)
 
         }
@@ -25,4 +25,16 @@ function printevennum() {
 
 console.log(printevennum())
 
+//print 1 to 100 Odd num using Arrow Function
+const oddnum = () => {
+    dum = 0
+    for (i = 1; i <= 100; i++)
+        if (i % 2 != 0) {
+            dum = i
+            console.log(dum)
+
+        }
+
+}
+console.log(oddnum()) 
 

@@ -12,7 +12,7 @@ else {
 
 //Check if a Number is Positive, Negative, or Zero
 
-let num = 0
+let num = 56
 
 switch (Math.sign(num)) {
     case 1:
@@ -68,4 +68,21 @@ for (i=1;i<=100;i++) {
     }
 }
 console.log(gum);
+
+//Generate Random Number in Given Range
+
+const Randomnum = (min, max) => {
+   
+    return Math.floor(Math.random()*(max - min + 1) + min)
+}
+
+console.log(Randomnum(1000, 9999))
+console.log(Randomnum(100, 999))
+
+//Muiltplication of two num
+
+const multi = (m, n) => {
+    return m*n
+}
+console.log(multi(8, 9))
 
